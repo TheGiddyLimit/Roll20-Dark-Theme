@@ -1817,16 +1817,16 @@ div.sheet-rolltemplate-desc div.sheet-desc.sheet-info .sheet-bottom {
 
 /* Additional DH2e styling */
 .sheet-rolltemplate-dh2ed .sheet-inlinerollresult, .sheet-rolltemplate-dh2ed-dmg .sheet-inlinerollresult {
-    display: inline;
+    display: inline !important;
 }
 
 .sheet-rolltemplate-dh2ed,
 .sheet-rolltemplate-dh2ed-dmg {
-    font-size: 11px;
+    font-size: 11px !important;
 }
 
 .sheet-rolltemplate-dh2ed td, .sheet-rolltemplate-dh2ed-dmg td {
-    font-size: 14px;
+    font-size: 14px !important;
 }
 `;
 if (typeof GM_addStyle != "undefined") {
