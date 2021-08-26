@@ -23,8 +23,13 @@
     border: 1px solid hsl(250,25%,15%) !important;
 }
 
+/*
+#editor-wrapper,
+#playerzone,
+*/
+#background,
 body {
-    background:url(http://subtlepatterns.com/patterns/dark_leather.png)!important;
+    background:url(https://www.toptal.com/designers/subtlepatterns/patterns/dark_leather.png)!important;
 }
 
 #floatingtoolbar, #floatinglayerbar {
@@ -1808,6 +1813,20 @@ div.sheet-rolltemplate-desc div.sheet-desc.sheet-info .sheet-bottom {
 .r20es-welcome {
     background-color: hsl(0,0%,10%) !important;
     color: hsl(0,0%,75%) !important;
+}
+
+/* Additional DH2e styling */
+.sheet-rolltemplate-dh2ed .sheet-inlinerollresult, .sheet-rolltemplate-dh2ed-dmg .sheet-inlinerollresult {
+    display: inline;
+}
+
+.sheet-rolltemplate-dh2ed,
+.sheet-rolltemplate-dh2ed-dmg {
+    font-size: 11px;
+}
+
+.sheet-rolltemplate-dh2ed td, .sheet-rolltemplate-dh2ed-dmg td {
+    font-size: 14px;
 }
 `;
 if (typeof GM_addStyle != "undefined") {
