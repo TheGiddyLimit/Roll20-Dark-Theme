@@ -29,7 +29,7 @@
 */
 #background,
 body {
-    background:url(https://www.toptal.com/designers/subtlepatterns/patterns/dark_leather.png)!important;
+    background:url(https://storage.googleapis.com/subtlepatterns-production/designers/subtlepatterns/uploads/dark_leather.png)!important;
 }
 
 #floatingtoolbar, #floatinglayerbar {
